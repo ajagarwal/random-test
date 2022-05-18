@@ -2,8 +2,6 @@
 
 ## Product Description (TBD)
 
----
-
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and [Minimals](https://minimals.css) as the design component library.
 
 ## Developing
@@ -28,6 +26,8 @@ To develop locally:
    ```bash
    npm run dev
    ```
+
+Check out the [contribution](CONTRIBUTING.md) and [code](CODE_GUIDELINES.md) guidelines for more information.
 
 ## Testing
 

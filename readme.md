@@ -33,16 +33,16 @@ Check out the [contribution](CONTRIBUTING.md) and [code](CODE_GUIDELINES.md) gui
 
 If you are fixing a bug or adding code that should be tested, add tests! Below rules are followed for testing:
 
-1. Jest + RTL ([React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)) is being used for writing unit and integration test.
-2. Write test cases for behavorial testing.
-3. Write component level unit test cases and page level integration tests.
-4. Code coverage threshold is as below:
-   - lines - 95%
-   - statements - 95%
-   - branch - 90%
-   - functions - 100%
-5. Regression test suite should be created and updated (as required).
-6. Regression test suite should be executed before every prod release. (good to have)
+- Jest + RTL ([React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)) is being used for writing unit and integration test.
+- Write test cases for behavorial testing.
+- Write component level unit test cases and page level integration tests.
+- Code coverage threshold is as below:
+  - lines - 95%
+  - statements - 95%
+  - branch - 90%
+  - functions - 100%
+- Regression test suite should be created and updated (as required).
+- Regression test suite should be executed before every prod release. (good to have)
 
 All new test suites should be written in TypeScript either .ts (or .tsx for unit tests). This will help ensure we catch smaller issues in tests that could cause flakey or incorrect tests.
 
